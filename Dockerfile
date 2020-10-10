@@ -6,9 +6,9 @@ RUN git clone https://github.com/a764578566/GolangDockerTest.git
 
 WORKDIR /GolangDockerTest
 
-RUN git checkout V0.0.0.1
+RUN git checkout V0.0.0.2
 
-RUN  go build .
+RUN go build .
 
 EXPOSE 9828
 
